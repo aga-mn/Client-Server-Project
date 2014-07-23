@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 =======
 Client-Server-Project
 =====================
@@ -13,7 +12,6 @@ jest rejestracja porównuje ją z listą procesów przechowywanych dla klien-
 ta. Jeśli listy są identyczne - klient otrzymuje komunikat o poprawności, w
 przeciwnym wypadku - odpowiedni komunikat o braku zgodności.
 
-<<<<<<< HEAD
 
 Kompilacja i uruchomienie
 Kompilacja programów:
