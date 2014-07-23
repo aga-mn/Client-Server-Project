@@ -4,7 +4,6 @@ Client-Server-Project
 
 Projekt semestralny z przedmiotu Programowanie Aplikacji Klient-Serwer. Tytul projektu: Nadzorowanie wybranych hostow
 
->>>>>>> b6044c3b5be32e2c6516f990b4d3d4928d810525
 Zadaniem serwera jest nadzorowanie pracy klienta - sprawdzanie działających
 na nim procesów. Klient rejestruje się na serwerze przesyłając listę bieżących
 procesów. Serwer rejestruje klienta. Przyjmuje listę procesów i jeśli to nie
@@ -50,13 +49,13 @@ REGISTERED.
 - QUIT - serwer kończy obsługę klienta
 - HELP - serwer wysyła do klienta informację o dostępnych komunika-
 tach
-- CHECK PROCESS - porównuje listę procesów ¿ otrzymaną od klienta
+- CHECK PROCESS - porównuje listę procesów z otrzymaną od klienta
 z listą przechowywaną w pamięci serwera. Jeśli listy są identyczne ser-
 wer wysyła komunikat CHECK PROCESS OK, jeśli listy się różnią -
 komunikat CHECK PROCESS NOT OK oraz UNKNOWN (lista pro-
 cesów) - jeśli na otrzymanej liście są procesy nie występujące na liście
 wzorcowej lub MISSING w przypadku odwrotnym.
-4Jeśli serwer odbierze nieobsługiwany komunikat odpowiada komunika-
+-Jeśli serwer odbierze nieobsługiwany komunikat odpowiada komunika-
 tem UNKONOWN COMMAND.
 =======
 Kompilacja i uruchomienie
@@ -82,4 +81,4 @@ $ ./klient -a 127.0.0.1 -p 8080 -i python
 $ ./klient -a 127.0.0.1 -p 8080 -c python
 Serwer przy uruchomieniu pobiera dane konfiguracyjne z pliku ./conf/config.conf. Uruchomienie programu serwera:
 $ ./serwer
->>>>>>> b6044c3b5be32e2c6516f990b4d3d4928d810525
+
